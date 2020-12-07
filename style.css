@@ -1,0 +1,65 @@
+/*  Setting the font for the page */
+/*  NOTE: I could probably do this a different way,
+    but the way I went about building the page led
+    me to this. Can fix later.
+*/
+h1, h2, h3, h4, p, nav, ol, ul {
+    font-family: "Arial";
+}
+
+/* I like to control the specific sizes of each section */
+h1 { font-size: 48px; }
+h2 { font-size: 30px; }
+nav { font-size: 12px; }
+p { font-size: 17px; }
+
+
+.wrapper {
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+/* Color schemes */
+.light-background {
+    background-color: #696969;
+    color: black;
+}
+
+.dark-background {
+    background-color: #1E1E1E;
+    color: white;
+}
+
+body {
+    background-color: grey;
+}
+
+/* Font and Style patters */
+.centered {
+    text-align: center;
+}
+
+.default-padding {
+    padding: 30px 30px;
+}
+
+/* Link Styles */
+a:link    { color: lightskyblue;  }
+a:visited { color: lightcoral;   }
+a:hover   { color: green; }
+a:active  { color: red;  }
+
+/*  I was trying to find a way to put elements side by side,
+    but this didn't work. But I'm going to keep it and come
+    back to it later.
+
+.side-by-side {
+    float: left;
+    text-align: center; 
+    width: 50%; 
+    padding: 12px 0; 
+    color: white; 
+
+}
+*/
